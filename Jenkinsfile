@@ -1,6 +1,6 @@
 //Configure the Jenkins Pipeline for this repo with Jenkinsfile type (Declarative)
 node{
-    git branch: 'main', url: 'https://github.com/DinaGamalMahmoud/simple-java-app.git'
+    git branch: 'main', url: 'https://github.com/MahmoudAdisi/simple-java-app.git'
     stage('build'){
         try{
             sh'echo "build stage"'
